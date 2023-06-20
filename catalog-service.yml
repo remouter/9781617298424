@@ -1,3 +1,10 @@
 my:
  name: github
  email: github@github.com
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+my.name: prod
+my.email: prod@prod.com
