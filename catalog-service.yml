@@ -1,6 +1,8 @@
 my:
  name: github
  email: github@github.com
+book:
+  greeting: Welcome from config-service properties! 
 ---
 spring:
   config:
